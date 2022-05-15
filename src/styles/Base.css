@@ -156,6 +156,7 @@ body {
     padding: 20px;
     border-radius: 15px;
     margin-right: 10px;
+    max-width: 360px;
     max-height: 400px;
     position: relative;
 }
@@ -176,6 +177,19 @@ body {
 
 .project-card .card-language-info {
     display: flex;
+}
+
+.project-card .smol-text-alt {
+    margin-right: 5px;
+}
+
+.project-card .coming-soon {
+    padding: 3px;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #8877FF;
 }
 
 .project-card .card-button {
@@ -217,10 +231,18 @@ body {
     color: #2b7489;
 }
 
+.rust-color {
+    color: #dea584;
+}
+
 .elixir-color-bg {
     background-color: #6E4A7E !important;
 }
 
 .typescript-color-bg {
     background-color: #2b7489;
+}
+
+.rust-color-bg {
+    background-color: #dea584;
 }

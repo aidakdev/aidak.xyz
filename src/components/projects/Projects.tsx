@@ -51,6 +51,24 @@ const Projects = () => {
                     description='discordauth is an internal library that creates Discord forms and handles submissions, using the new Modals, a new feature implemented within Discord.js v14.'
                 />
             </div>
+
+            <br />
+
+            <div className="projects">
+                <Card
+                    name='eska'
+                    link='https://github.com/aidakx/eska'
+                    language='typescript'
+                    description='A simple, functional and customizable ID system that uses a new technology called Superflake (based on Twitter Snowflakes)'
+                />
+
+                <Card
+                    name='rustpaste'
+                    language='rust'
+                    comingSoon={true}
+                    description='What do you think this will be?'
+                />
+            </div>
         </div>
     )
 }

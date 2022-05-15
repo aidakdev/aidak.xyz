@@ -10,6 +10,7 @@ const Card = props => {
                 <p className={'smol-text-alt ' + props.language + '-color'}>
                     {props.language.toUpperCase()}
                 </p>
+                {props.comingSoon && <p className='smol-text-alt coming-soon'>COMING SOON</p>}
             </div>
 
             <p>{props.description}</p>
