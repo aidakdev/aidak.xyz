@@ -246,3 +246,6 @@ body {
 .rust-color-bg {
     background-color: #dea584;
 }
+
+/* -=======================================-  */
+.footer { bottom: 0; }

@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/Base.css'
 
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import Discord from '../components/discord/Discord'
 import Introduction from '../components/Introduction'
 import Projects from '../components/projects/Projects'
@@ -20,5 +21,8 @@ export default (
     <br /> <br/>
 
     <Projects />
+    <br />
+    
+    <Footer />
   </div>
 )
