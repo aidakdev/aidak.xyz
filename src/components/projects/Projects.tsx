@@ -63,7 +63,7 @@ const Projects = () => {
                 />
 
                 <Card
-                    name='rustpaste'
+                    name='rspaste'
                     language='rust'
                     comingSoon={true}
                     description='What do you think this will be?'
