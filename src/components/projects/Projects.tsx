@@ -61,6 +61,13 @@ const Projects = () => {
                     language='typescript'
                     description='A simple, functional and customizable ID system that uses a new technology called Superflake (based on Twitter Snowflakes)'
                 />
+                
+                <Card
+                    name='Superflake'
+                    link='https://github.com/aidakx/superflake'
+                    language='typescript'
+                    description='Superflake is a revolutionary technology created with TypeScript and based on Twitter Snowflake.'
+                />
 
                 <Card
                     name='rspaste'
