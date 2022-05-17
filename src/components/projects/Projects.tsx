@@ -43,12 +43,12 @@ const Projects = () => {
                     language='typescript'
                     description='The official testing unit for Hexagon, an internal multi-platform hosting.'
                 />
-
+                
                 <Card
-                    name='discordauth'
-                    link='https://github.com/aidakx/discordauth'
-                    language='typescript'
-                    description='discordauth is an internal library that creates Discord forms and handles submissions, using the new Modals, a new feature implemented within Discord.js v14.'
+                    name='rspaste'
+                    link='https://github.com/aidakx/rspaste'
+                    language='rust'
+                    description='A simple, fast and fully-typed JSPaste API wrapper for Rust.'
                 />
             </div>
 
@@ -67,13 +67,6 @@ const Projects = () => {
                     link='https://github.com/aidakx/superflake'
                     language='typescript'
                     description='Superflake is a revolutionary technology created with TypeScript and based on Twitter Snowflake.'
-                />
-
-                <Card
-                    name='rspaste'
-                    language='rust'
-                    comingSoon={true}
-                    description='What do you think this will be?'
                 />
             </div>
         </div>
