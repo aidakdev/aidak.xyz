@@ -22,6 +22,13 @@ const Projects = () => {
                     language='typescript'
                     description='This very website.'
                 />
+                
+                <Card
+                    name='rspaste'
+                    link='https://github.com/aidakx/rspaste'
+                    language='rust'
+                    description='A simple, fast and fully-typed JSPaste API wrapper for Rust.'
+                />
 
                 <Card 
                     name='nexthub_crypto'
@@ -42,13 +49,6 @@ const Projects = () => {
                     link='https://github.com/aidakx/hexagon-tests'
                     language='typescript'
                     description='The official testing unit for Hexagon, an internal multi-platform hosting.'
-                />
-                
-                <Card
-                    name='rspaste'
-                    link='https://github.com/aidakx/rspaste'
-                    language='rust'
-                    description='A simple, fast and fully-typed JSPaste API wrapper for Rust.'
                 />
             </div>
 
