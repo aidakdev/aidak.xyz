@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Laptop2, MapPin, Smartphone } from 'lucide-react'
+import { Laptop, MapPin, Smartphone } from 'lucide-react'
 
 import CodeActivity from './activities/CodeActivity'
 import SpotifyActivity from './activities/SpotifyActivity'
@@ -30,7 +30,7 @@ const Discord = () => {
                 {data.discord_user.username}#{data.discord_user.discriminator}
             </h3>
 
-            {data.active_on_discord_desktop && <Laptop2 className='online' />}
+            {data.active_on_discord_desktop && <Laptop className='online' />}
             {data.active_on_discord_mobile && <Smartphone className='online' />}
 
             <br/> <br/>
