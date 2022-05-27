@@ -6,20 +6,18 @@ import CodeActivity from './activities/CodeActivity'
 import SpotifyActivity from './activities/SpotifyActivity'
 import OfflineActivity from './activities/OfflineActivity'
 
-import { useLanyard } from 'react-use-lanyard'
-import { createDefaultData, Lanyard } from '../../types/Lanyard'
+import { Data, useLanyard } from 'use-lanyard'
+import { createDefaultData } from './util/lanyard'
 
 const Discord = () => {
     const presence = JSON.parse(
-        JSON.stringify(
-            useLanyard({ userId: '152569284390944768' })
-        )
+        JSON.stringify(useLanyard('152569284390944768'))
     )
 
     const defaultData = createDefaultData()
 
     const vscFilter = x => x.type === 0 && x.name === 'Visual Studio Code'
-    const { data }: Lanyard = !presence.isValidating ? presence.data : defaultData
+    const data: Data = !presence.isValidating ? presence.data : defaultData
 
     return (
         <div className='discord-card'>
