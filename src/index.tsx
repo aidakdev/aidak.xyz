@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import ReactRouterDOM from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import Home from './pages/home'
 
@@ -9,11 +9,11 @@ const root = ReactDOM.createRoot(
 )
 
 root.render(
-    <ReactRouterDOM.BrowserRouter>
+    <BrowserRouter>
         <div className='app'>
-            <ReactRouterDOM.Routes>
-                <ReactRouterDOM.Route path='/' element={Home} />
-            </ReactRouterDOM.Routes>
+            <Routes>
+                <Route path='/' element={Home} />
+            </Routes>
         </div>
-    </ReactRouterDOM.BrowserRouter>
+    </BrowserRouter>
 )
