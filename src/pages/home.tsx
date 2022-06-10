@@ -1,6 +1,6 @@
 import React from 'react'
 
-// import '../styles/home.css'
+import '../styles/home.css'
 import 'bootstrap/dist/css/bootstrap.css'
 
 export default (
