@@ -17,8 +17,8 @@ const Projects = () => {
 
             <div className='projects'>
                 <Card
-                    name='aidak.tk'
-                    link='https://github.com/aidakx/aidak.tk'
+                    name='aidak.xyz'
+                    link='https://github.com/aidakhome/aidak.xyz'
                     language='typescript'
                     description='This very website.'
                 />
