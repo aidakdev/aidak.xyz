@@ -11,7 +11,7 @@ const Footer = () => {
 
                 <ul className='nav col-md-4 justify-content-end list-unstyled d-flex'>
                     <li className='ms-3'>
-                        <a className='text-muted' href='https://github.com/aidakx'>
+                        <a className='text-muted' href='https://github.com/theklakes'>
                             <Github />
                         </a>
                     </li>
