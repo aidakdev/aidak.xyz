@@ -148,6 +148,7 @@ body {
 
 .projects {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .project-card {
@@ -156,6 +157,7 @@ body {
     padding: 20px;
     border-radius: 15px;
     margin-right: 10px;
+    margin-bottom: 15px;
     max-width: 360px;
     max-height: 400px;
     position: relative;
