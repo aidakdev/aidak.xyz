@@ -11,7 +11,7 @@ import { createDefaultData } from './util/lanyard'
 
 const Discord = () => {
     const presence = JSON.parse(
-        JSON.stringify(useLanyard('152569284390944768'))
+        JSON.stringify(useLanyard('311904215272390657'))
     )
 
     const defaultData = createDefaultData()
