@@ -14,15 +14,25 @@ export default (
     <Navbar />
     <br/>
 
-    <Introduction />
-    <br />
-    
-    <Discord />
-    <br /> <br/>
+    <div className='announcement'>
+      <img 
+        style={{marginLeft: '300px'}}
+        src='https://file.coffee/u/V84E5FvqIv84Eceu_cd74.jpg'
+        width='600px'
+      >
+      </img>
 
-    <Projects />
-    <br />
-    
+      <div 
+        className='text' 
+        style={{display: 'inline-block', marginLeft: '220px'}}
+      >
+        <p className='smol-text'>IN MEMORIAM</p>
+        <h1>Her Majesty</h1>
+        <h1 className='withinter'><strong>Queen Elizabeth II</strong></h1>
+        <h4>1926 - 2022</h4>
+      </div>
+    </div>
+
     <Footer />
   </div>
 )
