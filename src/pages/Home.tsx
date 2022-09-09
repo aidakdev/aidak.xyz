@@ -17,7 +17,7 @@ export default (
     <div className='announcement'>
       <img 
         style={{marginLeft: '300px'}}
-        src='https://file.coffee/u/V84E5FvqIv84Eceu_cd74.jpg'
+        src='https://file.coffee/u/8vPLzq_Te-7LTUrgD-G62.png'
         width='600px'
       >
       </img>
