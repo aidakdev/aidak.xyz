@@ -8,31 +8,18 @@ import Footer from '../components/Footer'
 import Discord from '../components/discord/Discord'
 import Introduction from '../components/Introduction'
 import Projects from '../components/projects/Projects'
+import ImportantNotice from '../components/ImportantNotice'
 
 export default (
   <div className='content'>
     <Navbar />
-    <br/>
-
-    <div className='announcement'>
-      <img 
-        style={{marginLeft: '300px'}}
-        src='https://file.coffee/u/8vPLzq_Te-7LTUrgD-G62.png'
-        width='600px'
-      >
-      </img>
-
-      <div 
-        className='text' 
-        style={{display: 'inline-block', marginLeft: '220px'}}
-      >
-        <p className='smol-text'>IN MEMORIAM</p>
-        <h1>Her Majesty</h1>
-        <h1 className='withinter'><strong>Queen Elizabeth II</strong></h1>
-        <h4>1926 - 2022</h4>
-      </div>
-    </div>
-
+    <br />
+    <Introduction />
+    <br />
+    <ImportantNotice />
+    <br />
+    <Projects />
+    <br />
     <Footer />
   </div>
 )
